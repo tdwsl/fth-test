@@ -64,6 +64,6 @@ create buf 80 allot
 ." Enter a random word: " enter-seed cr
 fill-grid
 120 shuffle-grid
-50 10 rand + add-blanks
+40 10 rand + add-blanks
 print-grid
 bye
